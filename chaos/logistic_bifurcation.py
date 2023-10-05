@@ -1,7 +1,12 @@
 """
 Notes:
-based on https://www.johndcook.com/blog/2020/01/11/logistic-bifurcation-diagram/
-investigating the logistic map mentioned in James Gleick's Chaos
+- based on https://www.johndcook.com/blog/2020/01/11/logistic-bifurcation-diagram/
+- investigating the logistic map mentioned in James Gleick's Chaos
+
+Key Takeaways:
+- the logistic map is a function f(x) = r x(1 – x)
+- For an x between 0 and 1, when 1 <= r <= 3, the iterated function converges to a fixed point (r-1)/r
+- For an x between 0 and 1, when r > 3, the iterated function bifurcates into chaos 
 """
 
 import matplotlib.pyplot as plt
